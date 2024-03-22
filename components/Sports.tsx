@@ -4,9 +4,9 @@ import SportCard from './SportCard'
 
 const Sports = () => {
   return (
-    <div className='max-w-[1240px] max-h-[673px] flex flex-col items-start '>
+    <div className=' flex flex-col items-start '>
       <h1 className='font-bold text-lg underline my-4'>Sports</h1>
-      <div className='flex gap-3'>
+      <div className='flex gap-3 flex-wrap justify-evenly'>
         {
           sports.map((collection, index) => (
            <SportCard key={index} collection={collection} />

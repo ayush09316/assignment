@@ -9,7 +9,7 @@ type Props = {
 
 const Card = ({collection}:Props) => {
   return (
-    <div className='w-[257px] shadow-lg h-[624px] dark:bg-[#818A97] p-5 bg-[#FFFFFF] relative'>
+    <div className='w-[257px] shadow-lg h-[624px] dark:bg-[#818A97] p-5 bg-[#FFFFFF] relative '>
       <div className=' bg-black relative'>
         <Image src={collection.pic} alt='pic' width={100} height={100}  className='w-[290px] h-[400px] object-cover' />
       </div>

@@ -9,13 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "collection":
-          "linear-gradient(180deg, #18282A 0%, #221A2C 100%)",
+        "collection": "linear-gradient(180deg, #18282A 0%, #221A2C 100%)",
         "collection-light":"linear-gradient(180deg, #F9F8FF 0%, #F3F9FF 100%)",
-          
-
       },
+      screens: {
+        xs: "475px",
+      }
     },
   },
   plugins: [],
