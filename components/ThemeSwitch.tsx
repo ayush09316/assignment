@@ -33,7 +33,7 @@ export default function ThemeSwitch() {
 
   if (resolvedTheme === 'light') {
     return (
-        <div className="border-2 p-2 rounded-lg bg-white">
+        <div className="p-2 rounded-lg bg-white border-2 border-black">
             <FiMoon onClick={() => setTheme('dark')} />
         </div>
     )
